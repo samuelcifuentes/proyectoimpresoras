@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="impresoras" id="52277634-50F3-BA5B-8263-0B19F444E9ED" version="3.5">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:07:33 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>52277634-50F3-BA5B-8263-0B19F444E9ED</designId>
+</OSDM_Design>

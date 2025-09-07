@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="un cliente puede tener varias impresoras asignadas" directorySegmentName="seg_0" id="C41191EA-B9F6-2497-67F6-EFDE3C08AA6E">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:33:57 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<sourcePk>21D9D7C9-666D-7308-3533-8C97A70EA686</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>puede tener</nameOnSource>
+<nameOnTarget>se le asigna</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EDFC69D6-1C53-A9E1-F5CB-A6D0F6BAD0C6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B3997406-BEE3-96C2-A52A-5434F518309F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

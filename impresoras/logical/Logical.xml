@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D63A4C3E-0E86-4C50-2F6C-970B8B304AE5" mainViewID="85D87AEA-3CCA-9B89-3C2E-C6B8EE830095">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:07:33 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

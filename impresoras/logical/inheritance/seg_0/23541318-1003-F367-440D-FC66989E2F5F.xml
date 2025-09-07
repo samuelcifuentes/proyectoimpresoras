@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_2" directorySegmentName="seg_0" id="23541318-1003-F367-440D-FC66989E2F5F">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:30:32 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>10FB6708-943C-0CCB-1F68-081D240D95FE</sourceEntity>
+<targetEntity>18E8F4CC-233E-34C3-E31A-B6E0BE4A6AA6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

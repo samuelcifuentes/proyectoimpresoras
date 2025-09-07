@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="una impresora puede tener varios mantenimientos" directorySegmentName="seg_0" id="A83127D1-E5BA-0FC8-59C0-920D672AB959">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:34:55 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<sourcePk>682D32BF-E104-5278-EF7A-98015414EBD7</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>puede solicitar</nameOnSource>
+<nameOnTarget>se le realiza</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B3997406-BEE3-96C2-A52A-5434F518309F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B1D56AD2-102A-E7BB-486F-9335A8088139</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

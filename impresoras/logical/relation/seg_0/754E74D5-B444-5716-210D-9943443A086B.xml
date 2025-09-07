@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="una impresora puede tener multiples tickets" directorySegmentName="seg_0" id="754E74D5-B444-5716-210D-9943443A086B">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:36:03 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<sourcePk>682D32BF-E104-5278-EF7A-98015414EBD7</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>a una impresora se le puenden solicitar</nameOnSource>
+<nameOnTarget>es solicitado para</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B3997406-BEE3-96C2-A52A-5434F518309F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0B0543AE-22F9-FE9C-016B-7166C91D605F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

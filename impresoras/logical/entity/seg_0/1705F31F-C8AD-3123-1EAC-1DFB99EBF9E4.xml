@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1705F31F-C8AD-3123-1EAC-1DFB99EBF9E4" name="NOTIFICACION">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:28:09 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_notificacion" id="0832F544-7727-37AA-3F9F-37EC7F090CC9">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:28:19 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="C4001620-9AC4-56F2-DC13-F6A64786BAEA">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:28:37 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mensaje" id="8696F92B-7ACC-0EDD-4A69-BA9E2BC95215">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:28:46 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_envio" id="8173E20D-3FCD-FD60-A56B-CAD70A1CF607">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:28:55 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="E97913DE-CE61-3EBE-BAAD-8A2356EF9B37">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:45:24 UTC</createdTime>
+<generatorID>E6441C8C-DC02-0922-DD3A-FC9CD8AA9FE9</generatorID>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<referedAttribute>59AE57D1-3C59-2362-BAE8-4BB6ACA5F71D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B1B8F262-BF4C-0D98-EC52-15F2EFD8A62F" name="NOTIFICACION PK">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:28:45 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C4001620-9AC4-56F2-DC13-F6A64786BAEA</attributeRef>
+<attributeRef>E97913DE-CE61-3EBE-BAAD-8A2356EF9B37</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

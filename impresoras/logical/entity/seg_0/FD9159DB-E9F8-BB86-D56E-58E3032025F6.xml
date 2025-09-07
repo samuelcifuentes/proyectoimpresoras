@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD9159DB-E9F8-BB86-D56E-58E3032025F6" name="DETALLE_FACTURA">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:25:52 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detalle" id="DD0F40A8-4F13-2E2C-5856-CDC82AD87BE6">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:27:05 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hojas_impresas" id="8A08AE74-5B96-B56E-B378-F8BA44C62EBC">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:27:16 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo_total" id="07BB43E2-9C6E-BB65-6BBE-C6ACCCA1AF1A">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:27:41 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_factura" id="E072525D-BA51-61D9-5D45-BF2925C524A3">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:43:01 UTC</createdTime>
+<generatorID>CFDA83D5-CB2A-C478-9478-B826BC6FB77E</generatorID>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<referedAttribute>6B4576B7-8942-7DB6-CFEA-BCEC088A0BE4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="BF792949-0060-CAFB-4511-2FC24279D505">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:43:01 UTC</createdTime>
+<generatorID>CFDA83D5-CB2A-C478-9478-B826BC6FB77E</generatorID>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<referedAttribute>3EDB2684-670B-8A34-26E6-BB70D546DEAB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05456222-1400-804C-4EBD-F2FA0E722C58" name="DETALLE_FACTURA PK">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:27:15 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD0F40A8-4F13-2E2C-5856-CDC82AD87BE6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

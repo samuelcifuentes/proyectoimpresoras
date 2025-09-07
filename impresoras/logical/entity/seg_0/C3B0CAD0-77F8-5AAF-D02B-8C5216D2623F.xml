@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3B0CAD0-77F8-5AAF-D02B-8C5216D2623F" name="ADMINISTRADOR">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:11:29 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>10FB6708-943C-0CCB-1F68-081D240D95FE</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_administrador" id="7323B4E3-A5B2-5DE6-A0A4-1AF1FC5EDA4D">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:11:48 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00DAE91B-507E-0EE0-74BD-DE4C98427596" name="ADMINISTRADOR PK">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:11:55 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7323B4E3-A5B2-5DE6-A0A4-1AF1FC5EDA4D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="CFDA83D5-CB2A-C478-9478-B826BC6FB77E">
+<createdBy>Asus PX507ZC4</createdBy>
+<createdTime>2025-09-06 20:43:01 UTC</createdTime>
+<ownerDesignName>impresoras</ownerDesignName>
+<engineerTo>
+<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
+</engineerTo>
+<sourcePk>CCAB1998-84B8-5E6A-169C-B05A3C1A4F1E</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>contiene</nameOnSource>
+<nameOnTarget>es contenida por</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C6C461A4-9E60-9FBC-3EA8-6809BB68E01A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FD9159DB-E9F8-BB86-D56E-58E3032025F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
