@@ -24,6 +24,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha" id="F9C63D96-1A4E-4F73-49B8-8697C2BD8755">
@@ -35,6 +36,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="tipo" id="0B6D11E6-F7A2-FF61-1BF8-134F2BF8A130">
@@ -46,6 +48,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="observaciones" id="E00A5002-88E1-4544-5BE9-56BB38D64DED">
@@ -57,6 +60,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_impresora" id="4D70D32A-F635-E622-88C3-5C439AD04E54">
@@ -70,19 +74,7 @@
 <referedAttribute>1B171CC0-3620-13B7-6D11-23E9CE3EC2D2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_cliente" id="881FE018-8AC3-F121-9092-F869367DF130">
-<createdBy>Asus PX507ZC4</createdBy>
-<createdTime>2025-09-06 20:34:55 UTC</createdTime>
-<generatorID>A83127D1-E5BA-0FC8-59C0-920D672AB959</generatorID>
-<ownerDesignName>impresoras</ownerDesignName>
-<engineerTo>
-<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
-</engineerTo>
-<referedAttribute>699C9C13-7C27-5C9A-656E-8BA2BD4C1D4C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -97,7 +89,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>4D70D32A-F635-E622-88C3-5C439AD04E54</attributeRef>
-<attributeRef>881FE018-8AC3-F121-9092-F869367DF130</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -24,6 +24,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="hojas_impresas" id="8A08AE74-5B96-B56E-B378-F8BA44C62EBC">
@@ -35,6 +36,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="costo_total" id="07BB43E2-9C6E-BB65-6BBE-C6ACCCA1AF1A">
@@ -46,6 +48,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_factura" id="E072525D-BA51-61D9-5D45-BF2925C524A3">
@@ -59,19 +62,7 @@
 <referedAttribute>6B4576B7-8942-7DB6-CFEA-BCEC088A0BE4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_cliente" id="BF792949-0060-CAFB-4511-2FC24279D505">
-<createdBy>Asus PX507ZC4</createdBy>
-<createdTime>2025-09-06 20:43:01 UTC</createdTime>
-<generatorID>CFDA83D5-CB2A-C478-9478-B826BC6FB77E</generatorID>
-<ownerDesignName>impresoras</ownerDesignName>
-<engineerTo>
-<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
-</engineerTo>
-<referedAttribute>3EDB2684-670B-8A34-26E6-BB70D546DEAB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

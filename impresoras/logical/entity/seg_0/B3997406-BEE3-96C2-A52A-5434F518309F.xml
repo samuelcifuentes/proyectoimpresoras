@@ -24,6 +24,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="marca" id="CAE3DA57-D907-592D-86D6-D51D47AEA31A">
@@ -35,6 +36,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="modelo" id="0578B589-59B8-C39C-8F12-5EBC16A0CC80">
@@ -46,6 +48,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="numero_serie" id="B5DD939F-8843-6330-446A-EE87CD726041">
@@ -57,6 +60,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_instalacion" id="1961F925-D221-BEB0-1E29-2C730DD22121">
@@ -68,6 +72,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_instalacion_1" id="6A4E1749-AF51-CAA3-0434-A9A50438798A">
@@ -79,6 +84,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ubicacion" id="B01D15D4-33BC-7B9F-4CE2-03B808BD45B1">
@@ -90,6 +96,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="estado_operativo" id="3A38ABD5-D203-9338-6176-E7496008B226">
@@ -101,6 +108,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="contador_actual" id="7A8C6195-E93F-9185-BFF4-0B55A2443D5A">
@@ -110,20 +118,9 @@
 <engineerTo>
 <item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_cliente" id="699C9C13-7C27-5C9A-656E-8BA2BD4C1D4C">
-<createdBy>Asus PX507ZC4</createdBy>
-<createdTime>2025-09-06 20:33:57 UTC</createdTime>
-<generatorID>C41191EA-B9F6-2497-67F6-EFDE3C08AA6E</generatorID>
-<ownerDesignName>impresoras</ownerDesignName>
-<engineerTo>
-<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
-</engineerTo>
-<referedAttribute>F8A76707-50BA-0DF3-73F2-CCEAED687B94</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -138,7 +135,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>1B171CC0-3620-13B7-6D11-23E9CE3EC2D2</attributeRef>
-<attributeRef>699C9C13-7C27-5C9A-656E-8BA2BD4C1D4C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -24,6 +24,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_emision" id="6F2D14A1-B6E4-33A1-975A-E8BACE4E14D7">
@@ -35,6 +36,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="monto_total" id="626E261D-9A18-3820-0591-554278C7C4FC">
@@ -46,6 +48,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="estado_pago" id="B5BC35E6-1D29-4275-968F-A36CC5527E0B">
@@ -57,19 +60,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_cliente" id="3EDB2684-670B-8A34-26E6-BB70D546DEAB">
-<createdBy>Asus PX507ZC4</createdBy>
-<createdTime>2025-09-06 20:42:01 UTC</createdTime>
-<generatorID>1E483B30-7FEC-B585-B802-8C3AE99AEE83</generatorID>
-<ownerDesignName>impresoras</ownerDesignName>
-<engineerTo>
-<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
-</engineerTo>
-<referedAttribute>F8A76707-50BA-0DF3-73F2-CCEAED687B94</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -84,7 +75,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>6B4576B7-8942-7DB6-CFEA-BCEC088A0BE4</attributeRef>
-<attributeRef>3EDB2684-670B-8A34-26E6-BB70D546DEAB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

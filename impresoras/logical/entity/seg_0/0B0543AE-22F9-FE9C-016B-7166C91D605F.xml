@@ -24,6 +24,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_creacion" id="5CA0385B-4DD8-FD59-12EA-01799BFD980F">
@@ -35,6 +36,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="descripcion" id="F56CAA5D-98B6-FDC1-A86C-0067A154AE26">
@@ -46,6 +48,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="prioridad" id="C9969CD4-CBB4-274F-867E-5A71EE97BFB1">
@@ -57,6 +60,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="estado" id="6228A935-8873-FAF9-7960-45FF6887E851">
@@ -68,6 +72,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_impresora" id="B3F824F7-4059-5D4F-9C49-FBAEAC5D3302">
@@ -81,19 +86,7 @@
 <referedAttribute>1B171CC0-3620-13B7-6D11-23E9CE3EC2D2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_cliente" id="346ED4BC-3E42-7C35-EB32-17035CF329FF">
-<createdBy>Asus PX507ZC4</createdBy>
-<createdTime>2025-09-06 20:36:03 UTC</createdTime>
-<generatorID>754E74D5-B444-5716-210D-9943443A086B</generatorID>
-<ownerDesignName>impresoras</ownerDesignName>
-<engineerTo>
-<item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
-</engineerTo>
-<referedAttribute>699C9C13-7C27-5C9A-656E-8BA2BD4C1D4C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -109,7 +102,6 @@
 <usedAttributes>
 <attributeRef>D432DA3C-3215-9FEB-F16F-37348ECE22D6</attributeRef>
 <attributeRef>B3F824F7-4059-5D4F-9C49-FBAEAC5D3302</attributeRef>
-<attributeRef>346ED4BC-3E42-7C35-EB32-17035CF329FF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

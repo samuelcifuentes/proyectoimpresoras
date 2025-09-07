@@ -25,6 +25,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nit" id="ADAF3D33-5D21-B620-8072-82BDAD29D2D3">
@@ -36,6 +37,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre_empresa" id="234B7BE1-9DF7-5E31-CF1E-6FA343DAF470">
@@ -47,6 +49,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="direccion" id="527B81B5-BD94-2621-8261-450F78D5F68D">
@@ -58,6 +61,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefono" id="56296761-74CD-5DA2-D09A-984AAEE9041C">
@@ -69,6 +73,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="contacto_principal" id="7C1D8748-BFE5-498D-DD4E-AFEBAED61F6F">
@@ -80,6 +85,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -92,9 +98,6 @@
 <item key="891FED54-5E07-9A6D-3A71-AEE763DA9B7A" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>F8A76707-50BA-0DF3-73F2-CCEAED687B94</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
